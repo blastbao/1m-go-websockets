@@ -1,12 +1,13 @@
 package main
 
 import (
-	"github.com/gorilla/websocket"
-	"golang.org/x/sys/unix"
 	"log"
 	"reflect"
 	"sync"
 	"syscall"
+
+	"github.com/gorilla/websocket"
+	"golang.org/x/sys/unix"
 )
 
 type epoll struct {
